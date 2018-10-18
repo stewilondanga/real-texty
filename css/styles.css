@@ -21,11 +21,11 @@ body {
   height: 2.5em;
 }
 
-/*.my_social a img {
+.my_social a img {
   height: 1.5em;
 }
 
-.sketchy {
+/*.sketchy {
     font-size: 12vh;
     font-weight: 900;
     letter-spacing: 0.01em;
