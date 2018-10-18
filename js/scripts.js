@@ -17,25 +17,27 @@ var el = document.querySelector('.sketchy');
 var text = el.innerText;
 var spans = [];
 
-/*var convertToSpans = function convertToSpans() {
-    var words = text.split(' ');
+var convertToSpans = function convertToSpans() {
+  var words = text.split(' ');
 
-    el.innerHTML = '';
-    words.forEach(function (word) {
-        var letters = word.split('').filter(function (letter) {return !!letter.trim().length;});
-        var wordSpan = document.createElement('span');
-        letters.forEach(function (letter) {
-            var span = document.createElement('span');
-            span.className = 'letter';
-            span.innerText = letter;
-            wordSpan.appendChild(span);
-            spans.push(span);
-        });
-        el.appendChild(wordSpan);
+  el.innerHTML = '';
+  words.forEach(function(word) {
+    var letters = word.split('').filter(function(letter) {
+      return !!letter.trim().length;
     });
+    var wordSpan = document.createElement('span');
+    letters.forEach(function(letter) {
+      var span = document.createElement('span');
+      span.className = 'letter';
+      span.innerText = letter;
+      wordSpan.appendChild(span);
+      spans.push(span);
+    });
+    el.appendChild(wordSpan);
+  });
 };
 
-var sketchify = function sketchify() {
+/*var sketchify = function sketchify() {
     var scaleDiff = MAX_SCALE - MIN_SCALE;
     spans.forEach(function (span) {
         var rotate = MAX_ROTATE * (Math.random() - Math.random());
