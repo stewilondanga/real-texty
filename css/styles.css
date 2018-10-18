@@ -33,10 +33,11 @@ body {
   text-transform: uppercase;
 }
 
-/*.sketchy > span {
-    margin: 0 2vh;
+.sketchy>span {
+  margin: 0 2vh;
 }
-.sketchy span {
+
+/*.sketchy span {
     display: inline-block;
     position: relative;
 }
