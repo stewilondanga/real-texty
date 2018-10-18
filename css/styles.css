@@ -25,14 +25,15 @@ body {
   height: 1.5em;
 }
 
-/*.sketchy {
-    font-size: 12vh;
-    font-weight: 900;
-    letter-spacing: 0.01em;
-    line-height: 1.2;
-    text-transform: uppercase;
+.sketchy {
+  font-size: 12vh;
+  font-weight: 900;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
-.sketchy > span {
+
+/*.sketchy > span {
     margin: 0 2vh;
 }
 .sketchy span {
