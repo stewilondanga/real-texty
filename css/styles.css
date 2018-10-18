@@ -2,6 +2,14 @@ html, body {
   height: 100%;
 }
 
+body {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 10vw;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -15,15 +23,6 @@ html, body {
 
 /*.my_social a img {
   height: 1.5em;
-}
-
-
-body {
-    align-items: center;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    padding: 10vw;
 }
 
 .sketchy {
