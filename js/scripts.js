@@ -15,9 +15,9 @@ var IS_RANSOM = false;
 
 var el = document.querySelector('.sketchy');
 var text = el.innerText;
-/*var spans = [];
+var spans = [];
 
-var convertToSpans = function convertToSpans() {
+/*var convertToSpans = function convertToSpans() {
     var words = text.split(' ');
 
     el.innerHTML = '';
