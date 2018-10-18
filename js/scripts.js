@@ -13,8 +13,8 @@ var MAX_SCALE = 1;
 var MIN_SCALE = 0.5;
 var IS_RANSOM = false;
 
-/*var el = document.querySelector('.sketchy');
-var text = el.innerText;
+var el = document.querySelector('.sketchy');
+/*var text = el.innerText;
 var spans = [];
 
 var convertToSpans = function convertToSpans() {
