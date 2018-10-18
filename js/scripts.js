@@ -37,17 +37,17 @@ var convertToSpans = function convertToSpans() {
   });
 };
 
-/*var sketchify = function sketchify() {
-    var scaleDiff = MAX_SCALE - MIN_SCALE;
-    spans.forEach(function (span) {
-        var rotate = MAX_ROTATE * (Math.random() - Math.random());
-        var scale = MIN_SCALE + scaleDiff * Math.random();
-        if (IS_RANSOM) {
-            span.style.fontWeight = WEIGHTS[Math.floor(WEIGHTS.length * Math.random())];
-        }
-        span.style.transform = 'rotate(' + rotate + 'deg) scale(' + scale + ')';
-    });
+var sketchify = function sketchify() {
+  var scaleDiff = MAX_SCALE - MIN_SCALE;
+  spans.forEach(function(span) {
+    var rotate = MAX_ROTATE * (Math.random() - Math.random());
+    var scale = MIN_SCALE + scaleDiff * Math.random();
+    if (IS_RANSOM) {
+      span.style.fontWeight = WEIGHTS[Math.floor(WEIGHTS.length * Math.random())];
+    }
+    span.style.transform = 'rotate(' + rotate + 'deg) scale(' + scale + ')';
+  });
 };
 
-convertToSpans();
+/*convertToSpans();
 sketchify();
