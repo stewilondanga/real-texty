@@ -37,11 +37,12 @@ body {
   margin: 0 2vh;
 }
 
-/*.sketchy span {
-    display: inline-block;
-    position: relative;
+.sketchy span {
+  display: inline-block;
+  position: relative;
 }
-.sketchy .letter:hover {
+
+/*.sketchy .letter:hover {
     animation: jiggleTown 0.1s steps(1) 0s infinite;
 }
 
