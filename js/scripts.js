@@ -50,4 +50,4 @@ var sketchify = function sketchify() {
 };
 
 convertToSpans();
-/*sketchify();
+sketchify();
