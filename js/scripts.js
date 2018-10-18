@@ -49,5 +49,5 @@ var sketchify = function sketchify() {
   });
 };
 
-/*convertToSpans();
-sketchify();
+convertToSpans();
+/*sketchify();
